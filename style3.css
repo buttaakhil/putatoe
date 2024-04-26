@@ -1,0 +1,237 @@
+.shop-by-catagories-headline{
+    color: var(--Black, #253D4E);
+    font-size: 32px;
+    font-weight: 600;  
+    margin-bottom: 24px;
+}
+
+.shop-by-catagories{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin-bottom: 32px;
+}
+.dairy-text{
+    display: flex;
+    justify-content: space-between;
+}
+
+.dairy-text-one{
+    color: var(--Black, #253D4E);
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.dairy-text-two{
+    color: #0291A0;
+    font-size: 16.8px;
+    font-weight: 700;
+
+}
+
+.dairy-image-box{
+    background: #F8F8F8;
+    border-radius: 8px;
+    padding: 8px 8px 12px 8px;
+    width: 136px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dairy-images .dai-img{
+    width: 131px;
+    height: 92px;
+    object-fit: contain;    
+}
+
+
+.dairy-images{
+    display: flex;
+    gap: 12px;
+    overflow-x: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.dairy-images::-webkit-scrollbar{
+    display: none;
+}
+
+.dairy-img-headline{
+    font-size: 24px;
+    font-weight: 600;
+    color: #253D4E;
+}
+.dairy-selling-price{
+    color: #0291A0;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.dairy-mrp{
+    color: #253D4E;
+    font-size: 12px;
+    font-weight: 500;
+    text-decoration: line-through;
+}
+
+.dairy-discount{
+    color: #C50000;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.dairy-quantiy{
+    background: #696969;
+    color: #FFFFFF;
+    display: flex;
+    padding: 2px 4px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    width: 80px;
+}
+
+.dairy-quantiy select{
+    border: none;
+    background-color: #696969;
+    color: #FFFFFF;
+    outline: none;
+}
+
+.dairy-add-to-cart{
+    padding: 4px 8px;
+    background: #0291A0;
+    width: 112px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.dairy-images-text{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+}
+
+.dairy-image-box{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.sprite{
+    background-color: #E3FFE3;
+}
+
+.sting{
+    background-color: #FFEFF3;
+}
+
+.mountaindew{
+    background-color: #EAFFDD;
+    width: 172px;
+}
+
+.mountaindew .dairy-img-headline{
+    width: 172px;
+    text-align: center; 
+}
+
+.pulpy-orange{
+    width: 172px;
+    background-color: #FFEFE4;
+}
+
+.pulpy-orange .dairy-img-headline{
+    width: 172px;
+    text-align: center;
+}
+
+.slice{
+    background-color: #FEFFDF;
+}
+
+.thumsup{
+    background-color: #E4F3FF;
+}
+
+.maaza{
+    background-color: #FEFFDF;
+}
+
+.paper-boat{
+    background-color: #EEFFDB;
+}
+
+.mirinda{
+    background-color: #FFE8DF;
+}
+
+.sevenup{
+    background-color: #E3FFE3;
+}
+
+.blue-banner{
+    background: url("Images/banner-blue.svg");
+    background-size: cover;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+    padding-left: 80px;
+    padding-right: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blue-banner-buttons img{
+    width: 193.778px;
+    height: 64.889px;
+    object-fit: cover;
+}
+
+.blue-banner-left-content{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.blue-banner-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.blue-banner-text-1,.blue-banner-text-2{
+    color: #FFF;
+    font-size: 48.889px;
+    font-weight: 700;
+}
+
+.blue-banner-sub-text{
+    color: #FFF;
+    font-size: 17.778px;
+    font-weight: 500;
+}
+
+.blue-banner-buttons{
+    display: flex;
+    align-items: center;
+
+}
+.blue-banner-buttons div{
+    color: var(--Text, #0C2519);
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 8px;
+    border: 1px solid #000;
+    background: #FFF;
+    height: 32px;
+    padding: 8px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

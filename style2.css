@@ -1,0 +1,157 @@
+/* banners, todays popular */
+.banners-images{
+    width: 100%;
+    display: flex;
+    overflow-x: scroll;
+    gap: 16px;
+    -ms-overflow-style: none;
+    scrollbar-width: none; 
+}
+
+.banners-images img{
+    width: 100%;
+}
+
+.scroll-circles-outbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-top: 24px;
+    margin-bottom: 40px;
+}
+.scroll-circle-one,.scroll-circle-three{
+    width: 12px;
+    height: 12px;
+    background-color: #949494;
+    border-radius: 50%;
+}
+
+.scroll-circle-two{
+    width: 18px;
+    height: 18px;
+    background-color:#0291A0;
+    border-radius: 50%;
+}
+
+.todays-popular-headline-box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.todays-popular-headline-box h1{
+    color: var(--Black, #253D4E);
+    font-size: 32px;
+    font-weight: 600;
+}
+.todays-popular-sub-headline{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.todays-popular-sub-headline p{
+    color: var(--Black, #253D4E);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.todays-popular-sub-headline .fruits-text{
+    color: #0291A0;
+    font-weight: 700;
+}
+
+.fruit-box img{
+    width: 131px;
+    height: 92px;
+    border-radius: 8px;
+    object-fit: contain;
+}
+
+.fruit-box{
+    border-radius: 8px;
+    padding: 8px 8px 12px 8px;
+    width: 136px;
+}
+.fruits-text-box{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+}
+.fruits-text-box h3{
+    color: var(--Black, #253D4E);
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.fruits-small-text{
+    color: var(--Grey, #ADADAD);
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.fruits-price{
+    color: #0291A0;
+    font-size: 20px;
+    font-weight: 500;
+}
+.fruits-price-measure{
+    color: #0291A0;
+    font-size: 12px;
+    font-weight: 500;
+}
+.todays-popular-fruits-images{
+    display: flex;
+    gap: 12px;
+    overflow-x: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.todays-popular-fruits-images::-webkit-scrollbar{
+    display: none;
+}
+.banana-box{
+    background-color:#FFFFF3;
+}
+
+.apple-box{
+    background: #FFF3F3;
+}
+
+.mango-box{
+    background: #FFF3E3;
+}
+
+.papaya-box{
+    background: #FFF3E3;
+}
+
+.kiwis-box{
+    background: #F3FFF3;
+}
+.grapes-box{
+    background: #FFFFE3;
+}
+
+.watermelon-box{
+    background: #FFF3F3;
+}
+.pineapple-box{
+    background: #FFF2D3;
+}
+.orange-box{
+    background: #FFF3E3;
+}
+.strawberry-box{
+    background: #FFF3E3;
+}
+.pomegranate-box{
+    background: #FFE3E3;
+}
+.todays-popular{
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
